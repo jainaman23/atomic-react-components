@@ -169,7 +169,10 @@ exports[`Input Styled component should render correctly 1`] = `
     width: var(--spacing-6);
   ",
       },
-      "icons": Object {},
+      "icons": Object {
+        "pause": null,
+        "play": null,
+      },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
         "SHADOW_M": "var(--shadow-m)",
