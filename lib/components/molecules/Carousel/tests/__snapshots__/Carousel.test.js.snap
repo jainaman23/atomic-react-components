@@ -3,103 +3,20 @@
 exports[`<Carousel /> should render correctly 1`] = `
 <Carousel
   autoplay={false}
-  nav={true}
+  controls={false}
   slideTransitionTime={3000}
 >
   <section
     className="carousel-wrapper"
   >
-    <div
-      className="nav-action next"
-    >
-      <Button
-        aria-disabled={false}
-        disabled={false}
-        onClick={[Function]}
-        onKeyUp={[Function]}
-      >
-        <StyledComponent
-          aria-disabled={false}
-          disabled={false}
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "Button-sc-1ccn477-0",
-                "isStatic": false,
-                "lastClassName": "dWfVev",
-                "rules": Array [
-                  "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";&:focus:not(.focus-visible){outline:none;}&.circle{border-radius:50%;}&.dots{border-radius:50%;text-indent:-1000px;overflow:hidden;width:10px;height:10px;padding:0;min-height:initial;margin:",
-                  [Function],
-                  ";}",
-                  [Function],
-                  ";",
-                  ";",
-                ],
-              },
-              "displayName": "Button",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "Button-sc-1ccn477-0",
-              "target": [Function],
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-          onClick={[Function]}
-          onKeyUp={[Function]}
-        >
-          <Button
-            aria-disabled={false}
-            ariaLabel=""
-            className="Button-sc-1ccn477-0 bQZlZo"
-            disabled={false}
-            elementLocator=""
-            inheritedStyles=""
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            primary={false}
-            secondary={false}
-            tertiary={false}
-            type="button"
-          >
-            <button
-              aria-disabled={false}
-              aria-label={null}
-              className="Button-sc-1ccn477-0 bQZlZo"
-              data-locator="button-button-next"
-              disabled={false}
-              onClick={[Function]}
-              onKeyUp={[Function]}
-              type="button"
-            >
-              next
-            </button>
-          </Button>
-        </StyledComponent>
-      </Button>
-    </div>
     <Component>
       <div
         className="carousel-section"
-        onMouseEnter={[Function]}
+        onMouseEnter={null}
         onMouseLeave={[Function]}
       >
         <Slide
-          id="slide_1"
+          id={0}
           key=".0"
         >
           <div
@@ -109,7 +26,7 @@ exports[`<Carousel /> should render correctly 1`] = `
           </div>
         </Slide>
         <Slide
-          id="slide_2"
+          id={1}
           key=".1"
         >
           <div
@@ -119,7 +36,7 @@ exports[`<Carousel /> should render correctly 1`] = `
           </div>
         </Slide>
         <Slide
-          id="slide_3"
+          id={2}
           key=".2"
         >
           <div
@@ -129,7 +46,7 @@ exports[`<Carousel /> should render correctly 1`] = `
           </div>
         </Slide>
         <Slide
-          id="slide_4"
+          id={3}
           key=".3"
         >
           <div
@@ -140,100 +57,6 @@ exports[`<Carousel /> should render correctly 1`] = `
         </Slide>
       </div>
     </Component>
-    <div
-      className="nav-action prev"
-    >
-      <Button
-        aria-disabled={true}
-        aria-label="previous"
-        disabled={true}
-        onClick={[Function]}
-        onKeyUp={[Function]}
-      >
-        <StyledComponent
-          aria-disabled={true}
-          aria-label="previous"
-          disabled={true}
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "Button-sc-1ccn477-0",
-                "isStatic": false,
-                "lastClassName": "dWfVev",
-                "rules": Array [
-                  "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";",
-                  [Function],
-                  ";&:focus:not(.focus-visible){outline:none;}&.circle{border-radius:50%;}&.dots{border-radius:50%;text-indent:-1000px;overflow:hidden;width:10px;height:10px;padding:0;min-height:initial;margin:",
-                  [Function],
-                  ";}",
-                  [Function],
-                  ";",
-                  ";",
-                ],
-              },
-              "displayName": "Button",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "Button-sc-1ccn477-0",
-              "target": [Function],
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-          onClick={[Function]}
-          onKeyUp={[Function]}
-        >
-          <Button
-            aria-disabled={true}
-            aria-label="previous"
-            ariaLabel=""
-            className="Button-sc-1ccn477-0 dWfVev"
-            disabled={true}
-            elementLocator=""
-            inheritedStyles=""
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            primary={false}
-            secondary={false}
-            tertiary={false}
-            type="button"
-          >
-            <button
-              aria-disabled={true}
-              aria-label="previous"
-              className="Button-sc-1ccn477-0 dWfVev"
-              data-locator="button-button-"
-              disabled={true}
-              onClick={[Function]}
-              onKeyUp={[Function]}
-              type="button"
-            >
-              4
-            </button>
-          </Button>
-        </StyledComponent>
-      </Button>
-    </div>
-    <div
-      aria-atomic="true"
-      aria-live="polite"
-      className="hidden"
-      tabIndex="-1"
-    >
-      Item 1 of 4
-    </div>
   </section>
 </Carousel>
 `;

@@ -170,8 +170,10 @@ exports[`Input Styled component should render correctly 1`] = `
   ",
       },
       "icons": Object {
+        "leftArrow": null,
         "pause": null,
         "play": null,
+        "rightArrow": null,
       },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",

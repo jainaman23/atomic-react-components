@@ -20,9 +20,7 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
-          ";&:focus:not(.focus-visible){outline:none;}&.circle{border-radius:50%;}&.dots{border-radius:50%;text-indent:-1000px;overflow:hidden;width:10px;height:10px;padding:0;min-height:initial;margin:",
-          [Function],
-          ";}",
+          ";&:focus:not(.focus-visible){outline:none;}&.circle{border-radius:50%;}",
           [Function],
           ";",
           ";",
@@ -178,8 +176,10 @@ exports[`Button should render correctly 1`] = `
   ",
       },
       "icons": Object {
+        "leftArrow": null,
         "pause": null,
         "play": null,
+        "rightArrow": null,
       },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
